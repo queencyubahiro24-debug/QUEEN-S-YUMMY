@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - QUEEN'S YUMMY</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1 id="mainTitle">👑 QUEEN'S YUMMY</h1>
+        <p class="tagline">Contact Us</p>
+        <hr>
+    </header>
+
+    <nav>
+        <ul class="menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html#menu">Our Menu</a></li>
+            <li><a href="index.html#about">About Us</a></li>
+            <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section class="contact-form-section highlight">
+            <h2>Get in Touch</h2>
+            <p>Have a question, feedback, or want to make a reservation? We'd love to hear from you!</p>
+            
+            <form id="contactForm" class="contact-form">
+                <div class="form-group">
+                    <label for="fullName">Full Name:</label>
+                    <input type="text" id="fullName" name="fullName" placeholder="Enter your full name">
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email Address:</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email">
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="5" placeholder="Tell us about your inquiry..."></textarea>
+                </div>
+
+                <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+
+            <div id="formMessage" class="form-message"></div>
+        </section>
+
+        <section class="contact-info">
+            <h3>Other Ways to Reach Us</h3>
+            <ul>
+                <li>📞 Phone: (555) 123-4567</li>
+                <li>📧 Email: info@queensyummy.com</li>
+                <li>📍 Address: 123 Flavor Street, Foodie City, FC 12345</li>
+                <li>🕒 Hours: Mon-Sun 11:00 AM - 10:00 PM</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 QUEEN'S YUMMY. All rights reserved.</p>
+        <p>Visit us: 123 Flavor Street, Foodie City | Call: (555) 123-4567</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
